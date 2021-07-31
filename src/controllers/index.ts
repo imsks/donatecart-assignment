@@ -53,7 +53,7 @@ export const getActiveCampaignsCreatedLastMonth = async (
   });
 };
 
-// 3. Get all closed
+// 3. Get all closed campaigns
 export const getClosedCampaigns = async (
   request: Request,
   response: Response,
